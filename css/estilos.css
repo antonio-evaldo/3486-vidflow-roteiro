@@ -107,31 +107,47 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .cabecalho__videos {
-    background-image: url("../img/menu_superior/video_call.svg");
+    background-image: url("../img/modo_claro/menu_superior/video_call.svg");
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
 }
 
+:root.modo-escuro .cabecalho__videos {
+    background-image: url("../img/modo_escuro/menu_superior/video_call.svg");
+}
+
 .cabecalho__apps {
-    background-image: url("../img/menu_superior/apps.svg");
+    background-image: url("../img/modo_claro/menu_superior/apps.svg");
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
+}
+
+:root.modo-escuro .cabecalho__apps {
+    background-image: url("../img/modo_escuro/menu_superior/apps.svg");
 }
 
 .cabecalho__notificacoes {
-    background-image: url("../img/menu_superior/notifications.svg");
+    background-image: url("../img/modo_claro/menu_superior/notifications.svg");
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 13px;
 }
 
+:root.modo-escuro .cabecalho__notificacoes {
+    background-image: url("../img/modo_escuro/menu_superior/notifications.svg");
+}
+
 .cabecalho__avatar {
-    background-image: url("../img/menu_superior/Avatar.png");
+    background-image: url("../img/modo_claro/menu_superior/Avatar.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 13px 30px 13px 33px;
+}
+
+:root.modo-escuro .cabecalho__avatar {
+    background-image: url("../img/modo_escuro/menu_superior/Avatar.png");
 }
 
 .cabecalho__switch {
@@ -187,16 +203,6 @@ input[type="search"]::-webkit-search-results-decoration {
     outline: auto 1px;
 }
 
-/* @supports selector(:focus-visible) {
-    .cabecalho__switch-input:focus+.cabecalho__switch-slider {
-        outline: 0;
-    }
-
-    .cabecalho__switch-input:focus-visible+.cabecalho__switch-slider {
-        outline: auto 1px;
-    }
-} */
-
 
 /* MENU LATERAL */
 
@@ -222,67 +228,103 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .icone__inicio::before {
-    content: url("../img/menu_lateral/home.svg");
+    content: url("../img/modo_claro/menu_lateral/home.svg");
+}
+
+:root.modo-escuro .icone__inicio::before {
+    content: url("../img/modo_escuro/menu_lateral/home.svg");
 }
 
 .icone__explorar::before {
-    content: url("../img/menu_lateral/explore.svg");
+    content: url("../img/modo_claro/menu_lateral/explore.svg");
+}
+
+:root.modo-escuro .icone__explorar::before {
+    content: url("../img/modo_escuro/menu_lateral/explore.svg");
 }
 
 .icone__shorts::before {
-    content: url("../img/menu_lateral/airplay.svg");
+    content: url("../img/modo_claro/menu_lateral/airplay.svg");
+}
+
+:root.modo-escuro .icone__shorts::before {
+    content: url("../img/modo_escuro/menu_lateral/airplay.svg");
 }
 
 .icone__inscricoes::before {
-    content: url("../img/menu_lateral/subscriptions.svg");
+    content: url("../img/modo_claro/menu_lateral/subscriptions.svg");
+}
+
+:root.modo-escuro .icone__inscricoes::before {
+    content: url("../img/modo_escuro/menu_lateral/subscriptions.svg");
 }
 
 .icone__biblioteca::before {
-    content: url("../img/menu_lateral/video_library.svg");
+    content: url("../img/modo_claro/menu_lateral/video_library.svg");
+}
+
+:root.modo-escuro .icone__biblioteca::before {
+    content: url("../img/modo_escuro/menu_lateral/video_library.svg");
 }
 
 .icone__historico::before {
-    content: url("../img/menu_lateral/history.svg");
+    content: url("../img/modo_claro/menu_lateral/history.svg");
+}
+
+:root.modo-escuro .icone__historico::before {
+    content: url("../img/modo_escuro/menu_lateral/history.svg");
 }
 
 .icone__relogio::before {
-    content: url("../img/menu_lateral/history_toggle_off.svg");
+    content: url("../img/modo_claro/menu_lateral/history_toggle_off.svg");
+}
+
+:root.modo-escuro .icone__relogio::before {
+    content: url("../img/modo_escuro/menu_lateral/history_toggle_off.svg");
 }
 
 .icone__like::before {
-    content: url("../img/menu_lateral/thumb_up_alt.svg");
+    content: url("../img/modo_claro/menu_lateral/thumb_up_alt.svg");
+}
+
+:root.modo-escuro .icone__like::before {
+    content: url("../img/modo_escuro/menu_lateral/thumb_up_alt.svg");
 }
 
 .icone__alura::before {
-    content: url("../img/menu_lateral/Avatar_Alura.png");
+    content: url("../img/modo_claro/menu_lateral/Avatar_Alura.png");
 }
 
 .icone__gaveta::before {
-    content: url("../img/menu_lateral/Avatar_Gaveta.png");
+    content: url("../img/modo_claro/menu_lateral/Avatar_Gaveta.png");
 }
 
 .icone__ballerini::before {
-    content: url("../img/menu_lateral/Avatar_Rafa.png");
+    content: url("../img/modo_claro/menu_lateral/Avatar_Rafa.png");
 }
 
 .icone__iamarino::before {
-    content: url("../img/menu_lateral/Avatar_Atila.png");
+    content: url("../img/modo_claro/menu_lateral/Avatar_Atila.png");
 }
 
 .icone__souto::before {
-    content: url("../img/menu_lateral/Avatar_Souto.png");
+    content: url("../img/modo_claro/menu_lateral/Avatar_Souto.png");
 }
 
 .icone__nerd::before {
-    content: url("../img/menu_lateral/Avatar_Jovem_Nerd.png");
+    content: url("../img/modo_claro/menu_lateral/Avatar_Jovem_Nerd.png");
 }
 
 .icone__deschamps::before {
-    content: url("../img/menu_lateral/Avatar_Deschamps.png");
+    content: url("../img/modo_claro/menu_lateral/Avatar_Deschamps.png");
 }
 
 .icone__mostrar::before {
-    content: url("../img/menu_lateral/keyboard_arrow_down.svg");
+    content: url("../img/modo_claro/menu_lateral/keyboard_arrow_down.svg");
+}
+
+:root.modo-escuro .icone__mostrar::before {
+    content: url("../img/modo_escuro/menu_lateral/keyboard_arrow_down.svg");
 }
 
 .icone__mostrar-rotacionado {
@@ -290,15 +332,27 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .icone__videos::before {
-    content: url("../img/menu_lateral/ondemand_video.svg");
+    content: url("../img/modo_claro/menu_lateral/ondemand_video.svg");
+}
+
+:root.modo-escuro .icone__videos::before {
+    content: url("../img/modo_escuro/menu_lateral/ondemand_video.svg");
 }
 
 .icone__filmes::before {
-    content: url("../img/menu_lateral/movie.svg");
+    content: url("../img/modo_claro/menu_lateral/movie.svg");
+}
+
+:root.modo-escuro .icone__filmes::before {
+    content: url("../img/modo_escuro/menu_lateral/movie.svg");
 }
 
 .icone__jogos::before {
-    content: url("../img/menu_lateral/sports_esports.svg");
+    content: url("../img/modo_claro/menu_lateral/sports_esports.svg");
+}
+
+:root.modo-escuro .icone__jogos::before {
+    content: url("../img/modo_escuro/menu_lateral/sports_esports.svg");
 }
 
 /* SECAO SUPERIOR */
