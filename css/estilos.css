@@ -200,10 +200,6 @@ input[type="search"]::-webkit-search-results-decoration {
     background-color: var(--cinza-claro);
 }
 
-.cabecalho__switch-input:focus+.cabecalho__switch-slider {
-    outline: auto 1px;
-}
-
 
 /* MENU LATERAL */
 
