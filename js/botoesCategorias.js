@@ -19,11 +19,9 @@ function filtrarPorCategoria(filtro) {
     const categoria = video.querySelector(".categoria").textContent.toLowerCase();
     const valorFiltro = filtro.toLowerCase();
 
-    if (!categoria.includes(valorFiltro) && valorFiltro !== 'tudo') {
-      video.style.display = "none";
-    } else {
-      video.style.display = "block";
-    }
+    const mostrarVideo = valorFiltro === 'tudo' || categoria.includes(valorFiltro);
+
+    video.classList.toggle("escondido", !mostrarVideo);
   }
 }
 
