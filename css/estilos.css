@@ -387,7 +387,7 @@ input[type="search"]::-webkit-search-results-decoration {
     transition: .5s;
 }
 
-.botao-categoria[aria-selected="true"] {
+.botao-categoria.selecionado {
     background: var(--azul-destaque-light);
     color: var(--branco);
 }
