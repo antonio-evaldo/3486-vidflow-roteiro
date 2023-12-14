@@ -2,7 +2,6 @@ const formPesquisa = document.querySelector('.form__pesquisa');
 
 formPesquisa.addEventListener('submit', (evento) => {
   evento.preventDefault();
-  document.querySelector(".videos__item:not(.escondido) > iframe").focus();
 });
 
 const barraDePesquisa = document.querySelector(".pesquisar__input");
