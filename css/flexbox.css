@@ -137,6 +137,10 @@
     width: 239px;
     overflow: scroll;
   }
+  
+  .menu__secao {
+    height: auto;
+  }
 
   .menu__secao:nth-child(2),
   .menu__secao:nth-child(3),
