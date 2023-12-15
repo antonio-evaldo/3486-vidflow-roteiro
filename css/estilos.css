@@ -392,7 +392,7 @@ input[type="search"]::-webkit-search-results-decoration {
     color: var(--cinza-escuro);
 }
 
-:root.modo-escuro .botao-categoria[aria-pressed="true"] {
+:root.modo-escuro .botao-categoria.selecionado {
     background-color: var(--azul-destaque-dark);
     color: var(--branco);
 }
