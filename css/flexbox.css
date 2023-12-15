@@ -32,6 +32,10 @@
   width: 100%;
 }
 
+.menu__secao {
+  height: 100%;
+}
+
 .menu__secao:nth-child(2),
 .menu__secao:nth-child(3),
 .menu__secao:nth-child(4) {

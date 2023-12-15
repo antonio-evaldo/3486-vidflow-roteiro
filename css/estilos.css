@@ -448,7 +448,7 @@ iframe {
     }
 
     .menu__lista {
-        padding-top: 15px;
+        padding: 16px 8px;
     }
 
     .menu__lista li {
