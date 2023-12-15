@@ -63,8 +63,8 @@
 
     <div class="menu__container-wrapper">
         <aside class="menu__container">
-            <section id="links-principais" aria-label="Links principais" class="menu__secao">
-                <ul class="menu__lista menu__links-principais">
+            <section class="menu__secao">
+                <ul aria-label="Links principais" class="menu__lista menu__links-principais">
                     <li>
                         <a class="menu__itens" href="#">
                             <i class="icone__inicio"></i>
@@ -102,8 +102,8 @@
                 </ul>
             </section>
 
-            <section id="secao-outros-links" aria-label="Links para vídeos guardados na conta" class="menu__secao">
-                <ul class="menu__lista">
+            <section id="secao-outros-links" class="menu__secao">
+                <ul aria-label="Links para vídeos guardados na conta" class="menu__lista">
                     <li>
                         <a class="menu__itens" href="#">
                             <i class="icone__historico"></i>
@@ -127,10 +127,10 @@
                 </ul>
             </section>
 
-            <section class="menu__secao" aria-labelledby="titulo-inscricoes">
-                <p id="titulo-inscricoes" class="menu__secao-titulo">Inscrições</p>
+            <section class="menu__secao">
+                <span id="titulo-inscricoes" class="menu__secao-titulo">Inscrições</span>
 
-                <ul class="menu__lista">
+                <ul aria-labelledby="titulo-inscricoes" class="menu__lista">
                     <li class="menu__canal">
                         <a class="menu__itens" href="#">
                             <i class="icone__alura"></i>
@@ -187,12 +187,12 @@
                 </button>
             </section>
 
-            <section aria-labelledby="titulo-mais-da-pagina">
-                <p id="titulo-mais-da-pagina" class="menu__secao-titulo">
+            <section>
+                <span id="titulo-mais-da-pagina" class="menu__secao-titulo">
                     Mais da página
-                </p>
+                </span>
 
-                <ul class="menu__lista">
+                <ul class="menu__lista" aria-labelledby="titulo-mais-da-pagina">
                     <li class="premium">
                         <a class="menu__itens" href="#">
                             <i class="icone__videos"></i>

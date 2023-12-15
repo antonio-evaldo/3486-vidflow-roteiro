@@ -440,6 +440,7 @@ iframe {
     }
 
     .menu__secao-titulo {
+        display: block;
         padding: 24px 16px 0;
         text-align: start;
         font-weight: 500;
