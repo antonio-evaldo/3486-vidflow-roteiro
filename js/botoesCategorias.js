@@ -1,4 +1,3 @@
-const tabList = document.querySelector('[role="tablist"]');
 const botoesCategorias = document.querySelectorAll(".botao-categoria");
 
 botoesCategorias.forEach((botao) => {
