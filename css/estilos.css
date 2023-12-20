@@ -28,6 +28,16 @@
     --fonte-cor-principal: var(--cinza-medio);
 }
 
+.visualmente-escondido {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+}
+
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: var(--bg-cor-principal);
